@@ -1,0 +1,63 @@
+{
+  "engines": [
+    {
+      "name": "Stockfish",
+      "description": "Strong open source chess engine",
+      "website": "https://stockfishchess.org/",
+      "icon": "https://fitztrev.github.io/lichess-tauri/logos/stockfish.png",
+      "license": "GPLv3",
+      "version": "16",
+      "updated_at": "2023-06-30 00:00:00",
+      "binaries": [
+        {
+          "os": "linux",
+          "architecture": "avx2",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-avx2.tar",
+          "binary_filename": "stockfish/stockfish-ubuntu-x86-64-avx2"
+        },
+        {
+          "os": "linux",
+          "architecture": "modern",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64-modern.tar",
+          "binary_filename": "stockfish/stockfish-ubuntu-x86-64-modern"
+        },
+        {
+          "os": "linux",
+          "architecture": "default",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-ubuntu-x86-64.tar",
+          "binary_filename": "stockfish/stockfish-ubuntu-x86-64"
+        },
+        {
+          "os": "macos",
+          "architecture": "modern",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64-modern.tar",
+          "binary_filename": "stockfish/stockfish-macos-x86-64-modern"
+        },
+        {
+          "os": "macos",
+          "architecture": "default",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-macos-x86-64.tar",
+          "binary_filename": "stockfish/stockfish-macos-x86-64"
+        },
+        {
+          "os": "windows",
+          "architecture": "avx2",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-avx2.zip",
+          "binary_filename": "stockfish/stockfish-windows-x86-64-avx2.exe"
+        },
+        {
+          "os": "windows",
+          "architecture": "modern",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64-modern.zip",
+          "binary_filename": "stockfish/stockfish-windows-x86-64-modern.exe"
+        },
+        {
+          "os": "windows",
+          "architecture": "default",
+          "zip": "https://github.com/official-stockfish/Stockfish/releases/download/sf_16/stockfish-windows-x86-64.zip",
+          "binary_filename": "stockfish/stockfish-windows-x86-64.exe"
+        }
+      ]
+    }
+  ]
+}
